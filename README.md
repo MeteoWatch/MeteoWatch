@@ -26,7 +26,7 @@ MeteoWatch utilizes a combination of technologies:
 1. 📥 **Data Ingestion**: Notebooks extract data from web APIs into an EventStream, which feeds an EventHouse.
 2. 🏗️ **Architecture**: Implements a real-time intelligence medallion architecture.
 3. 🔄 **Data Transformation**: Update policies process data from bronze to silver layers.
-4. 🧮 **Data Processing**: Materialized views on the silver layer handle geometries, intersections, alarms, and data aggregation.
+4. 🧮 **Data Processing**: Materialized views in gold on top of the silver layer handle geometries, intersections, alarms, and data aggregation.
 5. 🤖 **AI Integration**: Azure OpenAI API is used to generate warning messages.
 6. 🚨 **Alert System**: EventStream sends alerts to Reflex for notification distribution.
 7. 📈 **Visualization**: A dashboard in Power BI built on the gold layer displays relevant information.
@@ -38,7 +38,7 @@ MeteoWatch utilizes a combination of technologies:
 To set up MeteoWatch:
 
 1. 🏗️ Create a new Microsoft Fabric workspace
-2. 🔀 Fork or import this repository into Azure DevOps
+2. 🔀 Fork or import this repository into Azure DevOps or GitHub.
 3. 🔗 Link the `fabric` folder to your workspace
 4. 🏠 Set up an EventHouse and KQL database
 5. 📜 Create KQL database artifacts using provided querysets: `weather`, `aircrafts`, `callsigns`, `openskynet`, `flights`, `alarms`, `shapes`
