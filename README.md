@@ -28,7 +28,7 @@ MeteoWatch utilizes a combination of technologies:
 4. 🧮 **Data Processing**: Materialized views on the silver layer handle geometries, intersections, alarms, and data aggregation.
 5. 🤖 **AI Integration**: Azure OpenAI API is used to generate warning messages.
 6. 🚨 **Alert System**: EventStream sends alerts to Reflex for notification distribution.
-7. 📈 **Visualization**: A dashboard built on the gold layer displays relevant information.
+7. 📈 **Visualization**: A dashboard in Power BI built on the gold layer displays relevant information.
 
 ![Architecture Diagram](docs/archi.drawio.png)
 
