@@ -28,7 +28,7 @@ Sadly at point of developing this project not all microsoft fabric artefacts are
 5. Create all the kql database artefacts using the corresponding kql querysets: weather, aircrafts, callsigns, openskynet, flights, alarms, shapes
 6. Create 5 eventstreams (openskynet-es, weather-es, callsigns-es, aircrafts-es, alarms-es) with custom endpoint as source
 7. Update references like endpoints, secrets, etc. in ingestion notebooks and start running them
-8. Set the sink in each of the ingestion eventstreams to the corresponding bronze table using direct ingestion
+8. Set the sink in each of the ingestion eventstreams to the corresponding bronze table using direct ingestion and use in queryset defined ingestion-mappings if applicable 
 9. Update references like endpoints, api keys in send_alerts notebook and start running it
 10. Create a reflex (alarms-es) based on alarms eventstream
 11. Open report/semantic model and fix connection/reference issues
