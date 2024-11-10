@@ -1,0 +1,2450 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"GoldWeather\",\"GoldFlights\",\"GoldAlarmsLatestFiltered\",\"GoldShapes\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.137.1102.0 (24.10)"
+      }
+    ],
+    "culture": "de-DE",
+    "cultures": [
+      {
+        "name": "de-DE",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "goldflights.airline_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "GoldFlights",
+                    "ConceptualProperty": "airline_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Airline": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "goldflights.destination_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "GoldFlights",
+                    "ConceptualProperty": "destination_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Destination": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "goldflights.geo_altitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "GoldFlights",
+                    "ConceptualProperty": "geo_altitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Altitude (m)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "goldflights.icao24": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "GoldFlights",
+                    "ConceptualProperty": "icao24"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ICAO24": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "goldflights.last_contact": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "GoldFlights",
+                    "ConceptualProperty": "last_contact"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Last Contact": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "goldflights.manufacturer": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "GoldFlights",
+                    "ConceptualProperty": "manufacturer"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Manufacturer": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "goldflights.origin_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "GoldFlights",
+                    "ConceptualProperty": "origin_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Origin": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "goldflights.type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "GoldFlights",
+                    "ConceptualProperty": "type"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Type": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "goldflights.velocity": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "GoldFlights",
+                    "ConceptualProperty": "velocity"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Velocity (m/s)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "goldflights.vertical_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "GoldFlights",
+                    "ConceptualProperty": "vertical_rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Vertical Rate (m/s)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "9e80363f-03ea-0d7f-48e0-81cb067fbc1c",
+        "fromColumn": "callsign",
+        "fromTable": "GoldFlights",
+        "toCardinality": "many",
+        "toColumn": "callsign",
+        "toTable": "GoldAlarmsLatestFiltered"
+      },
+      {
+        "name": "2336f6f1-3943-7dae-8ee3-74e5cb5a49cc",
+        "fromColumn": "isigmetId",
+        "fromTable": "GoldAlarmsLatestFiltered",
+        "toColumn": "isigmetId",
+        "toTable": "GoldWeather"
+      },
+      {
+        "name": "46a8a871-fc97-7955-63a3-db6b31dc001f",
+        "fromColumn": "id",
+        "fromTable": "GoldShapes",
+        "toColumn": "shape_id",
+        "toTable": "GoldAlarmsLatestFiltered"
+      }
+    ],
+    "sourceQueryCulture": "de-DE",
+    "tables": [
+      {
+        "name": "GoldWeather",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "isigmetId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1ec3ca32-c1cd-4911-b76f-d850c1d86799",
+            "sourceColumn": "isigmetId",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "weather_bronze_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "5bcd3e7c-b0a7-405f-9c44-a0f5ce0973db",
+            "sourceColumn": "weather_bronze_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "icaoId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1eac9359-d597-40ed-9ee7-a00a09cd815d",
+            "sourceColumn": "icaoId",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "firId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b6c33f10-77b4-4b27-a0fe-1e749d522876",
+            "sourceColumn": "firId",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "firName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9e740271-66f0-43e9-97a0-d32ea9ddeb1e",
+            "sourceColumn": "firName",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "receiptTime",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "eb0a3746-eedf-45b1-8afe-175e300a2b77",
+            "sourceColumn": "receiptTime",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "seriesId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0e35deca-7718-4c12-af57-55048731edf5",
+            "sourceColumn": "seriesId",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hazard",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4ef779ff-8af0-4af5-90b0-edd90198936e",
+            "sourceColumn": "hazard",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "qualifier",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "162a90a6-4f14-404a-afd3-740711fddd21",
+            "sourceColumn": "qualifier",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "base",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3afd54bc-f4c2-4b12-9725-0673bb67d05d",
+            "sourceColumn": "base",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "top",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d8c43eb4-7659-4a0e-af9a-7c1c8be3fcf1",
+            "sourceColumn": "top",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "geom",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4973a8e0-dea8-4cfa-9297-3dbdd3d5d9d5",
+            "sourceColumn": "geom",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "coords",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6ed7d792-ea4c-438f-83b1-520b5de5269e",
+            "sourceColumn": "coords",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "dir",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a77959c5-f472-4b7a-bd19-f61328f7ab7a",
+            "sourceColumn": "dir",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "spd",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7e3c91be-85a8-461c-ab2f-f3a58d898a52",
+            "sourceColumn": "spd",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "chng",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "557d302b-977e-45f9-8dc0-4c82c74ce790",
+            "sourceColumn": "chng",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rawSigmet",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b0e0cf78-4125-47c3-badc-f3bec3dc8615",
+            "sourceColumn": "rawSigmet",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "polygon",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f80d006d-a0c5-413a-b8a8-c0ca4fb857a1",
+            "sourceColumn": "polygon",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "validTimeToTimestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "a0384da4-d6ac-4ae7-9fde-30996197be05",
+            "sourceColumn": "validTimeToTimestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "validTimeFromTimestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "d9533de4-4740-4105-8f9a-83f7bbd9888f",
+            "sourceColumn": "validTimeFromTimestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "polygon_densified",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f721c521-31ff-4e31-bcd8-cbb1152575c2",
+            "sourceColumn": "polygon_densified",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "polygon_s2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9328e10a-823e-4a82-9720-5fc1701ca76e",
+            "sourceColumn": "polygon_s2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "weather_silver_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "167d6033-90dc-49c8-863a-59fbe6c11cd6",
+            "sourceColumn": "weather_silver_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "weather_gold_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "75e782c8-6463-4aec-b4b4-a523ac46cd01",
+            "sourceColumn": "weather_gold_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "polygon_wkt",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "76abb10f-e287-4919-a54a-ac6e01d986b5",
+            "sourceColumn": "polygon_wkt",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "7a0977e2-34cc-4254-8b97-b36d9723e416",
+        "partitions": [
+          {
+            "name": "GoldWeather",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Quelle = AzureDataExplorer.Contents(\"https://trd-kz4sd5vknmz3u5t26m.z2.kusto.fabric.microsoft.com\", \"eh\"),",
+                "    GoldWeather1 = Quelle{[Name=\"GoldWeather\"]}[Data],",
+                "    #\"Geänderter Typ\" = Table.TransformColumnTypes(GoldWeather1,{{\"isigmetId\", type text}})",
+                "in",
+                "    #\"Geänderter Typ\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "GoldFlights",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "IsHidden"
+          }
+        ],
+        "columns": [
+          {
+            "name": "icao24",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bacb2e9b-e16f-492f-9fb7-17f6f320a39f",
+            "sourceColumn": "icao24",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "callsign",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3e6e5270-66f6-4426-be8b-cf4c5455302b",
+            "sourceColumn": "callsign",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "openskynet_bronze_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "9c482b10-fa30-4ee7-82b8-a764a75d5230",
+            "sourceColumn": "openskynet_bronze_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "origin_country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cd5622e9-d0af-40c8-954f-9686c6202f6e",
+            "sourceColumn": "origin_country",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "time_position",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "00574311-2c07-4b91-af21-a1943fc32f22",
+            "sourceColumn": "time_position",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "last_contact",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "22df4a24-f0b3-4796-a633-e3e465cbf396",
+            "sourceColumn": "last_contact",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "longitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "6a3d77b7-d6f9-4957-88fa-26b68936985a",
+            "sourceColumn": "longitude",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "latitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b714c88b-0991-437e-b0ce-c426a0a468fb",
+            "sourceColumn": "latitude",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "baro_altitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "1b772fcc-0e5f-4cd3-bfee-97018fb1dca1",
+            "sourceColumn": "baro_altitude",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "on_ground",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "494d8d1a-d074-4af4-959a-3c84f585ac0e",
+            "sourceColumn": "on_ground",
+            "sourceProviderType": "bit",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "velocity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "fddaaa7d-bb86-4397-8671-09fde370b91f",
+            "sourceColumn": "velocity",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "true_track",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "f8a4a06a-6711-49f5-822b-5e136b4786c5",
+            "sourceColumn": "true_track",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "vertical_rate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4953f460-9772-4aa7-9352-2bd3fa6b24be",
+            "sourceColumn": "vertical_rate",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "geo_altitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c59d5df2-5584-4b0a-afd3-120b7746a6d1",
+            "sourceColumn": "geo_altitude",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "openskynet_silver_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "ebce0f8c-b62c-4aa0-8374-329fbc82d45d",
+            "sourceColumn": "openskynet_silver_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "753fbe85-1014-4e09-b8b8-46620549f020",
+            "sourceColumn": "type",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "icao_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8f2de41e-52bc-4592-a958-38dcfbce0a34",
+            "sourceColumn": "icao_type",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "manufacturer",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8881836d-33e0-4528-9046-52fe0fb43d18",
+            "sourceColumn": "manufacturer",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mode_s",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "98acd9fe-6baa-4895-a7b1-74a26673b83b",
+            "sourceColumn": "mode_s",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "registration",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "33c85499-f1f7-4d82-ba52-b579642d8831",
+            "sourceColumn": "registration",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "registered_owner_country_iso_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "174edfd3-7bf5-4453-850c-b0f342c16c7a",
+            "sourceColumn": "registered_owner_country_iso_name",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "registered_owner_country_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c14045ff-4673-4731-acf6-7730cca5f2d8",
+            "sourceColumn": "registered_owner_country_name",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "registered_owner_operator_flag_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b7642b04-630d-4cce-98cb-6ccb8c977c70",
+            "sourceColumn": "registered_owner_operator_flag_code",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "registered_owner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bff44731-212f-4de4-a452-1800fa65efbc",
+            "sourceColumn": "registered_owner",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "url_photo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b250e929-8464-4efd-a57e-29c4ef08ea78",
+            "sourceColumn": "url_photo",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "url_photo_thumbnail",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8522ff95-9d13-4056-b8a0-46538cccb8bf",
+            "sourceColumn": "url_photo_thumbnail",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "aircrafts_bronze_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "e6fd75bf-89e1-4895-9309-3c02302ced21",
+            "sourceColumn": "aircrafts_bronze_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "aircrafts_silver_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "0f78cdc0-e11f-4ed8-8c94-eefbaa9db0f4",
+            "sourceColumn": "aircrafts_silver_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "callsign_iata",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a0262a4b-8901-4a64-8149-fad3507d256a",
+            "sourceColumn": "callsign_iata",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "callsigns_bronze_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "f1a4bb16-cc87-4c71-8dfc-c62f8e420173",
+            "sourceColumn": "callsigns_bronze_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "callsigns_silver_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "13c878b7-b17c-40df-945e-53ae37c753c3",
+            "sourceColumn": "callsigns_silver_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "airline_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "82de93c7-d6b1-40c9-be8c-402ea1adbdbc",
+            "sourceColumn": "airline_name",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "airline_icao",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "100231bc-db66-4b54-8350-8f494a19ed15",
+            "sourceColumn": "airline_icao",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "airline_iata",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "020ee8d4-3c8f-42ca-82e9-f0614e662619",
+            "sourceColumn": "airline_iata",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "airline_country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "69604ca5-7f26-47e1-857e-f2695614bde8",
+            "sourceColumn": "airline_country",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "airline_country_iso",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "99095b5d-9ad8-4a7f-8ff6-319cf88c378c",
+            "sourceColumn": "airline_country_iso",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "airline_callsign",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "711a14cc-0b14-4d35-8d0a-80b0f8715e90",
+            "sourceColumn": "airline_callsign",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "origin_country_iso_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a5b537fe-ad26-43f8-8f63-755b825c4835",
+            "sourceColumn": "origin_country_iso_name",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "origin_country_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2f4a380a-1396-44c1-904e-438c7f84deeb",
+            "sourceColumn": "origin_country_name",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "origin_elevation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "8d423c6b-cc57-43f6-92a2-90ad3cce78c4",
+            "sourceColumn": "origin_elevation",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "origin_iata_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8304bf04-379a-4dd9-84fd-366bede0a92e",
+            "sourceColumn": "origin_iata_code",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "origin_icao_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0af427be-cfed-4a0e-ba25-0e2fb28b26ca",
+            "sourceColumn": "origin_icao_code",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "origin_latitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "a40b6ffb-ac98-496d-a0c6-40bde2be9593",
+            "sourceColumn": "origin_latitude",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "origin_longitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "23041e40-89b0-4ae7-9c23-bfa38f07fc05",
+            "sourceColumn": "origin_longitude",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "origin_municipality",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b60dcdca-3d5d-4474-bb6d-5a3379d21643",
+            "sourceColumn": "origin_municipality",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "origin_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3cd0d06e-bea5-4a1f-8a7e-c2a13923210e",
+            "sourceColumn": "origin_name",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "destination_country_iso_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "611a02ca-f304-485a-9d79-42bca452c9ed",
+            "sourceColumn": "destination_country_iso_name",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "destination_country_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9097cfaa-41fa-4d62-b478-09d03919c7e0",
+            "sourceColumn": "destination_country_name",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "destination_elevation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "69ae3231-7d50-492b-82fc-6d11eefa5d1b",
+            "sourceColumn": "destination_elevation",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "destination_iata_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e0062e2f-a88a-417a-8cc4-051189f9dd18",
+            "sourceColumn": "destination_iata_code",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "destination_icao_code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "14b1ac4b-78a2-476f-87eb-1834d08e1d11",
+            "sourceColumn": "destination_icao_code",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "destination_latitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "ae92edee-c3a1-4742-b1fc-eb48554ac22e",
+            "sourceColumn": "destination_latitude",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "destination_longitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "763b4573-46f3-449b-b3b4-ce5a4475c9cd",
+            "sourceColumn": "destination_longitude",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "destination_municipality",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aa44edfa-376b-4013-9d42-23713175cb3a",
+            "sourceColumn": "destination_municipality",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "destination_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3f83ea9e-68de-4ebf-b9bc-74748d798bf9",
+            "sourceColumn": "destination_name",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "geojson_linestring",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bd6ff249-81df-4058-9d07-770362d602a7",
+            "sourceColumn": "geojson_linestring",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "s2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d1af043e-8ac0-4412-a8fd-454e63133038",
+            "sourceColumn": "s2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flights_gold_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "aca8ea41-c169-4696-b560-091766af8757",
+            "sourceColumn": "flights_gold_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "current_position_wkt",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ca7148f6-ad8d-4dc3-9cca-67a9f9579d7c",
+            "sourceColumn": "current_position_wkt",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "origin_position_wkt",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cc8f46bd-a1f7-4ec7-a879-f05ce865455b",
+            "sourceColumn": "origin_position_wkt",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "destination_position_wkt",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8312439-3c8b-4ef4-acd8-6bf28a8006ac",
+            "sourceColumn": "destination_position_wkt",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "linestring_wkt",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f326def2-a69b-4ca0-829b-d834be50e72f",
+            "sourceColumn": "linestring_wkt",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "410da2d1-cda7-44aa-a979-50b7174bd57c",
+        "partitions": [
+          {
+            "name": "GoldFlights",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Quelle = AzureDataExplorer.Contents(\"https://trd-kz4sd5vknmz3u5t26m.z2.kusto.fabric.microsoft.com\", \"eh\"),",
+                "    GoldFlights1 = Quelle{[Name=\"GoldFlights\"]}[Data],",
+                "    #\"Removed Duplicates\" = Table.Distinct(GoldFlights1, {\"icao24\"}),",
+                "    #\"Removed Duplicates1\" = Table.Distinct(#\"Removed Duplicates\", {\"callsign\"}),",
+                "    #\"Removed Duplicates2\" = Table.Distinct(#\"Removed Duplicates1\", {\"callsign\"})",
+                "in",
+                "    #\"Removed Duplicates2\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "GoldAlarmsLatestFiltered",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "icao24",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e8704817-5dd7-4c38-b790-6497e4be817d",
+            "sourceColumn": "icao24",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "callsign",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fef7189f-6be4-4fbe-9ff1-af2265a60c15",
+            "sourceColumn": "callsign",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "isigmetId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "915218a6-8edc-4a72-8bc2-0e772b91d267",
+            "sourceColumn": "isigmetId",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "alarm_silver_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "1b0671bc-c312-41e0-8122-0dee9fadb985",
+            "sourceColumn": "alarm_silver_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "openskynet_bronze_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "0c1f6ff1-3a8c-4844-bc82-3c858a9d3d8b",
+            "sourceColumn": "openskynet_bronze_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "openskynet_silver_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "04b423c0-4a55-4975-9361-305bb76b64fd",
+            "sourceColumn": "openskynet_silver_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "weather_bronze_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "3f7ecf8a-8a76-442c-aff1-b4e5da5a1c3f",
+            "sourceColumn": "weather_bronze_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "weather_silver_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "18f841a5-f32d-419f-b835-672d6a0b4b70",
+            "sourceColumn": "weather_silver_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "callsigns_bronze_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "e7932aa5-a342-4e29-9d48-089aca38b9e0",
+            "sourceColumn": "callsigns_bronze_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "callsigns_silver_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "d6c88ead-7013-4fcd-86af-45250b808cd3",
+            "sourceColumn": "callsigns_silver_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "intersections_gold_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "a7cbf0a8-a67b-4339-afe9-6cd4bec12d1d",
+            "sourceColumn": "intersections_gold_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "alarm_gold_timestamp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "3fa3d51f-8cab-4191-96d1-7d6345ac8c56",
+            "sourceColumn": "alarm_gold_timestamp",
+            "sourceProviderType": "datetimeoffset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "854dfdd7-0736-4539-bd1b-ed177b7a510f",
+            "sourceColumn": "id",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "shape_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d22db906-6ac8-49a7-9b7e-d7a75df5c77e",
+            "sourceColumn": "shape_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "a8b684ee-3df8-493a-9f86-869e51e9c2ea",
+        "partitions": [
+          {
+            "name": "GoldAlarmsLatestFiltered",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Quelle = AzureDataExplorer.Contents(\"https://trd-kz4sd5vknmz3u5t26m.z2.kusto.fabric.microsoft.com\", \"eh\"),",
+                "    GoldAlarmsLatestFiltered1 = Quelle{[Name=\"GoldAlarmsLatestFiltered\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(GoldAlarmsLatestFiltered1,{{\"isigmetId\", type text}}),",
+                "    #\"Added Custom\" = Table.AddColumn(#\"Changed Type\", \"shape_id\", each [icao24]&[callsign]&[isigmetId])",
+                "in",
+                "    #\"Added Custom\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "GoldShapes",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6c4dbede-a71a-428e-a39a-63bfaa12e9b5",
+            "sourceColumn": "id",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "image_or_wkt",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6b7b75d5-3581-43df-86d5-c7fc9298953c",
+            "sourceColumn": "image_or_wkt",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "wkt_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e11f316e-d4d4-4589-a257-d6cadea23941",
+            "sourceColumn": "wkt_id",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "wkt_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8c3ed901-985a-49de-9ce0-b22bd3d72be1",
+            "sourceColumn": "wkt_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "colour",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1da5c1eb-2244-47b9-803f-f0a2c655b3bb",
+            "sourceColumn": "colour",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "longitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "e12534c0-98a3-47c0-95e1-2bd15d725966",
+            "sourceColumn": "longitude",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "latitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "bacfe9fb-51b4-4104-bee1-4d4222c91110",
+            "sourceColumn": "latitude",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "longitude_destination",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4a2f2b9e-e67f-4879-9d31-aa001af5f775",
+            "sourceColumn": "longitude_destination",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "latitude_destination",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "6c8aca65-eb99-4995-b9b5-660de21208c2",
+            "sourceColumn": "latitude_destination",
+            "sourceProviderType": "double",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "label",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "58071081-be5f-487e-bd34-072525be2b28",
+            "sourceColumn": "label",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "size",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ee400a99-8b54-4558-8774-efc2ba6a02d8",
+            "sourceColumn": "size",
+            "sourceProviderType": "bigint",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "32988df5-01e4-4043-a871-64846f795c07",
+        "partitions": [
+          {
+            "name": "GoldShapes",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = AzureDataExplorer.Contents(\"https://trd-kz4sd5vknmz3u5t26m.z2.kusto.fabric.microsoft.com\", \"eh\"),",
+                "    GoldShapes1 = Source{[Name=\"GoldShapes\"]}[Data]",
+                "in",
+                "    GoldShapes1"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "KQLQueryset",
+    "displayName": "callsigns",
+    "description": "callsigns"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "19c6dbf3-bef0-47a5-8823-63c3a861ed53"
+  }
+}
