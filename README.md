@@ -46,7 +46,7 @@ To set up MeteoWatch:
 7. 🔄 Update and run ingestion notebooks
 8. 🔌 Configure ingestion EventStream sinks to corresponding bronze tables (direct ingestion)
 9. 🔑 Update and run the `send_alerts` notebook
-10. ⚡ Create a Reflex (alarms-es) based on the alarms EventStream
+10. ⚡ Create a Reflex based on the alarms EventStream (`alarms-es`)
 11. 🔍 Open report/semantic model and resolve any connection/reference issues
 
 After completing these steps, your MeteoWatch system should be operational. 🎉
