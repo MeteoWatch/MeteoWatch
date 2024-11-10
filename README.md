@@ -5,6 +5,8 @@
 MeteoWatch is a real-time intelligence solution designed to monitor flights for potential weather hazards. Developed during the [Microsoft Fabric and AI Learning Hackathon](https://microsoftfabric.devpost.com/), MeteoWatch leverages Microsoft Fabric and Azure OpenAI to enhance aviation safety awareness.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" alt="Compass" width="25" height="25" /> What it does
+![Use Case Diagram](docs/Usecase.png)
+
 MeteoWatch integrates data from [Openskynetwork](https://opensky-network.org/), [Adsdb](https://www.adsbdb.com/), and [AviationWeather](https://aviationweather.gov/) to provide:
 
 - 🛩️ Real-time tracking of aircraft positions and flight routes
@@ -13,11 +15,9 @@ MeteoWatch integrates data from [Openskynetwork](https://opensky-network.org/), 
 - 💬 Generation of warning messages for affected aircraft
 - 📊 A dashboard for stakeholders such as air traffic controllers and pilots
 
-![Use Case Diagram](docs/usecase.drawio.png)
+![Alarm System](./docs/AlarmsGIF.gif)
 
-![Alarm System](./videos/alarms_openai_notebook_reflex.gif)
-
-![Dashboard](./videos/PowerBI%20-%20Various%20Callsigns.gif)
+![Dashboard](./docs/DashboardGIF.gif)
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Raising%20Hands.png" alt="Raising Hands" width="25" height="25" /> How we built it
 
