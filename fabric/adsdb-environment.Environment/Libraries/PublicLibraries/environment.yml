@@ -1,0 +1,5 @@
+dependencies:
+  - pip:
+      - azure-kusto-data==4.6.1
+      - azure-eventhub==5.12.2
+      - azure-kusto-ingest==4.6.1

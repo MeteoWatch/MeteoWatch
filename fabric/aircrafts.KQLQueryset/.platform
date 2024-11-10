@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "KQLQueryset",
+    "displayName": "aircrafts",
+    "description": "aircrafts"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0625e8d8-d846-412b-a856-cc55d7e4747c"
+  }
+}
