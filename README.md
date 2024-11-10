@@ -15,8 +15,13 @@ MeteoWatch integrates data from [Openskynetwork](https://opensky-network.org/), 
 - 💬 Generation of warning messages for affected aircraft
 - 📊 A dashboard for stakeholders such as air traffic controllers and pilots
 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> Preview
+
+### 🚨 Generated Alarms by OpenAI
 ![Alarm System](./docs/AlarmsGIF.gif)
 
+
+### 📊 Dashboard in Power BI
 ![Dashboard](./docs/DashboardGIF.gif)
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Raising%20Hands.png" alt="Raising Hands" width="25" height="25" /> How we built it
