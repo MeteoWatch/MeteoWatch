@@ -37,6 +37,7 @@ from requests.auth import HTTPBasicAuth
 
 # CELL ********************
 
+
 def get_logger() -> logging.Logger:
     FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
     formatter = logging.Formatter(fmt=FORMAT)
@@ -45,6 +46,7 @@ def get_logger() -> logging.Logger:
     logger = logging.getLogger("dajoma")
     logger.setLevel(logging.INFO)
     return logger
+
 
 # METADATA ********************
 
@@ -56,7 +58,9 @@ def get_logger() -> logging.Logger:
 # CELL ********************
 
 logger = get_logger()
-producer = EventHubProducerClient.from_connection_string(conn_str="Endpoint=sb://esehdewckwp0o2kltlf21wni.servicebus.windows.net/;SharedAccessKeyName=key_9ae1efcc-055f-40a4-9fc1-2be0cca5e3b6;SharedAccessKey=F3LUIQIFLl4GHCReux3Ewri/p6eSyXhq3+AEhO9xteg=;EntityPath=es_1fe50121-6dd6-4860-8b3e-ea0925d2362d")
+producer = EventHubProducerClient.from_connection_string(
+    conn_str="Endpoint=sb://esehdewckwp0o2kltlf21wni.servicebus.windows.net/;SharedAccessKeyName=key_9ae1efcc-055f-40a4-9fc1-2be0cca5e3b6;SharedAccessKey=F3LUIQIFLl4GHCReux3Ewri/p6eSyXhq3+AEhO9xteg=;EntityPath=es_1fe50121-6dd6-4860-8b3e-ea0925d2362d"
+)
 col_names = [
     "icao24",
     "callsign",
@@ -74,9 +78,9 @@ col_names = [
     "geo_altitude",
     "squawk",
     "spi",
-    "position_source"
+    "position_source",
 ]
-timeout = 16 * 60 * 60 # first is hours
+timeout = 16 * 60 * 60  # first is hours
 
 # METADATA ********************
 
@@ -89,11 +93,16 @@ timeout = 16 * 60 * 60 # first is hours
 
 # Inspired by: https://github.com/microsoft/Fabric-RTA-FlightStream/blob/main/artifacts/notebooks/LiveStream.py
 
+
 def get_data_from_openskynetwork() -> list:
     logger.info("Pulling data from openskynetwork.")
-    l = requests.get("https://opensky-network.org/api/states/all", auth=HTTPBasicAuth('mDp0r', 'W9$<d&A[QXr>T;Y\$&]$=>^eCd<8X_!B')).json()["states"]
+    l = requests.get(
+        "https://opensky-network.org/api/states/all",
+        auth=HTTPBasicAuth("user", "psw"),
+    ).json()["states"]
     logger.info(f"Data has {len(l)} entries.")
     return l
+
 
 def send_data_to_eventstream(l: list) -> None:
     start_time = time()
@@ -102,17 +111,21 @@ def send_data_to_eventstream(l: list) -> None:
     for i, row in enumerate(l):
         msg = json.dumps({col_names[i]: row[i] for i in range(len(row))})
         event_data_batch.add(EventData(msg))
-        #prior to hitting the max by 5k, send the current and recreate batch.
-        if event_data_batch.size_in_bytes >= event_data_batch.max_size_in_bytes-5000:
+        # prior to hitting the max by 5k, send the current and recreate batch.
+        if (
+            event_data_batch.size_in_bytes
+            >= event_data_batch.max_size_in_bytes - 5000
+        ):
             logger.info(f"Sending...")
             producer.send_batch(event_data_batch)
             logger.info(f"{i} messages sent from batch.")
             event_data_batch = producer.create_batch()
-    logger.info('Sending for the last time.')
+    logger.info("Sending for the last time.")
     producer.send_batch(event_data_batch)
     producer.close()
-    logger.info(f'Done with sending batch to eventstream. Took {time() - start_time}s.')
-    
+    logger.info(
+        f"Done with sending batch to eventstream. Took {time() - start_time}s."
+    )
 
 
 # METADATA ********************
@@ -126,7 +139,7 @@ def send_data_to_eventstream(l: list) -> None:
 
 logger.info("Starting...")
 start = time()
-while(True):
+while True:
     data = get_data_from_openskynetwork()
     send_data_to_eventstream(data)
     t = 120
@@ -137,7 +150,9 @@ while(True):
         logger.info("Timeout exceeded. Aborting.")
         break
     else:
-        logger.info(f"Continuing...~{int(timeout-running)}s left until timeout.")
+        logger.info(
+            f"Continuing...~{int(timeout-running)}s left until timeout."
+        )
 
 # METADATA ********************
 
