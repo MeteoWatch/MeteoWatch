@@ -1,3 +1,0 @@
-dependencies:
-  - pip:
-      - azure-eventhub==5.12.2
