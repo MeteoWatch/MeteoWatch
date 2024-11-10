@@ -1,5 +1,5 @@
 ![Logo](docs/MeteoWatchWide.jpg)
-# 🌐 MeteoWatch: Real-time Aviation Weather Intelligence
+# 🌐MeteoWatch: Real-time Aviation Weather Intelligence
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Airplane.png" alt="Airplane" width="25" height="25" /> Overview
 MeteoWatch is a real-time intelligence solution designed to monitor flights for potential weather hazards. Developed during the [Microsoft Fabric and AI Learning Hackathon](https://microsoftfabric.devpost.com/), MeteoWatch leverages Microsoft Fabric and Azure OpenAI to enhance aviation safety awareness.
