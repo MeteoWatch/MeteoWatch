@@ -13,7 +13,7 @@ MeteoWatch integrates data from OpenSkyNet, ADS-B, and AviationWeather to provid
 - 💬 Generation of warning messages for affected aircraft
 - 📊 A dashboard for stakeholders such as air traffic controllers and pilots
 
-![Alarm System](docs/reflex.png)
+![Alarm System](videos/alarms_openai_notebook_reflex.gif)
 
 ![Dashboard](docs/Dashboard.png)
 
