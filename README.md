@@ -1,10 +1,10 @@
 ![Logo](docs/MeteoWatchWide.jpg)
 # 🌐 MeteoWatch: Real-time Aviation Weather Intelligence
 
-## 🌟 Overview
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Airplane.png" alt="Airplane" width="25" height="25" /> Overview
 MeteoWatch is a real-time intelligence solution designed to monitor flights for potential weather hazards. Developed during the [Microsoft Fabric and AI Learning Hackathon](https://microsoftfabric.devpost.com/), MeteoWatch leverages Microsoft Fabric and Azure OpenAI to enhance aviation safety awareness.
 
-## 🛠️ What it does
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" alt="Compass" width="25" height="25" /> What it does
 MeteoWatch integrates data from OpenSkyNet, ADS-B, and AviationWeather to provide:
 
 - 🛩️ Real-time tracking of aircraft positions and flight routes
@@ -17,7 +17,7 @@ MeteoWatch integrates data from OpenSkyNet, ADS-B, and AviationWeather to provid
 
 ![Dashboard](docs/Dashboard.png)
 
-## 🔧 How we built it
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Raising%20Hands.png" alt="Raising Hands" width="25" height="25" /> How we built it
 ![Use Case Diagram](docs/usecase.drawio.png)
 
 MeteoWatch utilizes a combination of technologies:
@@ -32,7 +32,7 @@ MeteoWatch utilizes a combination of technologies:
 
 ![Architecture Diagram](docs/archi.drawio.png)
 
-## 🚀 Installation Guide for Microsoft Fabric
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> Installation Guide for Microsoft Fabric
 
 To set up MeteoWatch:
 
