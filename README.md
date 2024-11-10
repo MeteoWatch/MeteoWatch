@@ -1,3 +1,4 @@
+![Logo](docs/MeteoWatchWide.jpg)
 # Overview
 MeteoWatch is a realtime intelligence solution based on open aviation data that monitors flights in regards to weather hazards. MeteoWatch was built during the [Microsoft Fabric and AI Learning Hackathon](https://microsoftfabric.devpost.com/) and is based on microsoft fabric and azure openai.
 - [What it does](#what-it-does)
