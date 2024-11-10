@@ -13,13 +13,13 @@ MeteoWatch integrates data from OpenSkyNet, ADS-B, and AviationWeather to provid
 - 💬 Generation of warning messages for affected aircraft
 - 📊 A dashboard for stakeholders such as air traffic controllers and pilots
 
+![Use Case Diagram](docs/usecase.drawio.png)
+
 ![Alarm System](videos/alarms_openai_notebook_reflex.gif)
 
 ![Dashboard](docs/Dashboard.png)
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Raising%20Hands.png" alt="Raising Hands" width="25" height="25" /> How we built it
-![Use Case Diagram](docs/usecase.drawio.png)
-
 MeteoWatch utilizes a combination of technologies:
 
 1. 📥 **Data Ingestion**: Notebooks extract data from web APIs into an EventStream, which feeds an EventHouse.
