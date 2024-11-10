@@ -6,7 +6,10 @@ The system consumes data from openskynet, adsdb and aviationweather. Using this 
 
 ![uc](docs/usecase.drawio.png)
 
+![alarms](docs/reflex.png)
+
 ![dashboard](docs/Dashboard.png)
+
 
 # How we built it
 The ingestion is built with notebooks. All the data is available via web apis. We send the data to eventstream to ingest it into an eventhouse. Simply put we build a real time intelligence medaillon architecture. We use update policies to do basic transformations and cleanup from bronze to silver layer. On top of the silver layer we use materialized views to create geometries in different formats, calculate intersections, track alarms, aggregate to newest information, etc.. We then use a notebook to send the alarms to azure openai api to create more meaningful warning messages. These are send to eventstream and from their to reflex, where alerting via email, teams message, etc. could be configured. Further we build a dashboard on top of the gold layer where all the geometries (positions, trajectories, hazards) as well as other useful information are displayed.
