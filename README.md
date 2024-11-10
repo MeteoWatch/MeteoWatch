@@ -5,7 +5,7 @@
 MeteoWatch is a real-time intelligence solution designed to monitor flights for potential weather hazards. Developed during the [Microsoft Fabric and AI Learning Hackathon](https://microsoftfabric.devpost.com/), MeteoWatch leverages Microsoft Fabric and Azure OpenAI to enhance aviation safety awareness.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" alt="Compass" width="25" height="25" /> What it does
-MeteoWatch integrates data from [Openskynetwork](https://opensky-network.org/), ![Adsdb](https://www.adsbdb.com/), and [AviationWeather](https://aviationweather.gov/) to provide:
+MeteoWatch integrates data from [Openskynetwork](https://opensky-network.org/), [Adsdb](https://www.adsbdb.com/), and [AviationWeather](https://aviationweather.gov/) to provide:
 
 - 🛩️ Real-time tracking of aircraft positions and flight routes
 - 🌪️ Monitoring of areas with reported SIGMETs (Significant Meteorological Information)
